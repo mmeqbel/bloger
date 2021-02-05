@@ -1,0 +1,110 @@
+/*Gloabal*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5; /*height between lines */
+    padding: 0; /*NO padding in the body*/
+    margin: 0;  /*NO margins in the body*/
+    background-color: #f4f4f4;
+    
+}
+
+.container{
+    width: 80%;     /*percentegies are responsive*/
+    margin: auto;   /*content in the middle*/
+    overflow: hidden; /* hides any content overcome this dimension (80%)*/
+}
+ul{
+    margin: 0;  /*reset the default*/
+    padding: 0; /*reset the default*/  
+}
+/*Header*/
+header{
+    background-color: #35424a;
+    color: #ffffff;
+    min-height: 70px; /*the content is 70px*/
+    border-bottom: #d12424 3px solid;
+    padding-top: 16px;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;  /*toUpperCase*/
+}
+ 
+header li{
+    display: inline;    /*delete the prefix icon*/
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header #logo{
+    float: left;
+}
+header #logo h1{
+    margin: 0;  /*reset the default*/
+    padding: 0; /*reset the default*/ 
+}
+header nav{
+    margin: 0;  /*reset the default*/
+    padding: 0; /*reset the default*/
+    float: right;
+    padding-top: 10px;
+}
+header .current a{
+    color: #d12424;
+    font-weight: bold;
+}
+header a:hover{
+font-weight: bold;
+color: #cccccc;
+}
+
+/*Show Case*/
+
+#showcase{
+    min-height: 400px; /*flexable height*/
+    background: url("../img/showcase.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    font-size: 3.5vw; /*vw for responsive text*/
+    margin-top: 100px;
+    margin-bottom: 10px;    
+}
+#showcase p{
+    font-size: 2vw;    
+}
+
+/*Cards*/
+#blogcard{
+    margin-top: 20px;
+}
+.card{
+    float: left;
+    width: 28%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgb(170, 160, 160);
+    background-color: rgb(238, 230, 230);
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgb(170, 160, 160); 
+}
+
+.card img{
+    width: 90px;
+}
+footer {
+text-align: center;
+margin-top: 20px;
+padding: 16px;
+color: #ffffff;
+background-color:#d12424 ;
+}
